@@ -1,0 +1,29 @@
+body {
+    background-image: url('../public/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+  }
+.main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-name {
+    font-family: "Playwrite NG Modern", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.score{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
